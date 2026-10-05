@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>スタンダードツイン | donguri hotel -City&Mountain</title>
+  <!-- <link rel="stylesheet" href="css/rooms.css"> -->
+    <link rel="stylesheet" href="css/room-detail.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="site-header__inner">
+
+      <a href="index.html" class="site-header__logo">
+        donguri hotel -City&Mountain
+      </a>
+
+      <button
+        class="site-header__menu-button"
+        type="button"
+        aria-label="メニューを開く"
+        aria-expanded="false"
+        aria-controls="global-navigation"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-header__nav" id="global-navigation">
+        <ul class="site-header__list">
+          <li>
+            <a href="index.html">ホーム</a>
+          </li>
+          <li>
+            <a href="room.html">客室</a>
+          </li>
+          <li>
+            <a href="index.html#access">アクセス</a>
+          </li>
+          <li>
+            <a href="reservation.html" class="site-header__reservation">
+              ご予約
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+
+  <main>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+      <div class="breadcrumb__inner">
+        <a href="index.html">ホーム</a>
+        <span>›</span>
+        <a href="room.html">客室</a>
+        <span>›</span>
+        <span>スタンダードツイン</span>
+      </div>
+    </div>
+
+
+    <!-- Room Hero -->
+    <section class="room-detail-hero">
+
+      <div class="room-detail-hero__image">
+        <img
+          id="main-room-image"
+          src="img/standard-room.jpg"
+          alt="スタンダードツインの客室"
+        >
+      </div>
+
+      <div class="room-detail-hero__content">
+
+        <p class="room-detail-hero__label">
+          STANDARD TWIN
+        </p>
+
+        <h1 class="room-detail-hero__title">
+          スタンダードツイン
+        </h1>
+
+        <p class="room-detail-hero__description">
+          ゆったりとした空間で、旅の疲れを癒していただける
+          スタンダードタイプのツインルームです。
+        </p>
+
+        <div class="room-detail-hero__spec">
+          <div class="room-detail-hero__spec-item">
+            <span>広さ</span>
+            <strong>24㎡</strong>
+          </div>
+
+          <div class="room-detail-hero__spec-item">
+            <span>定員</span>
+            <strong>1〜2名</strong>
+          </div>
+
+          <div class="room-detail-hero__spec-item">
+            <span>ベッド</span>
+            <strong>110cm × 2</strong>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- Room Gallery -->
+    <section class="room-gallery">
+
+      <div class="room-gallery__inner">
+
+        <div class="section-heading">
+          <p class="section-heading__en">ROOM GALLERY</p>
+          <h2 class="section-heading__title">客室ギャラリー</h2>
+        </div>
+
+        <div class="room-gallery__main">
+          <img
+            id="gallery-main-image"
+            src="img/standard-room.jpg"
+            alt="スタンダードツイン 客室"
+          >
+        </div>
+
+        <div class="room-gallery__thumbnails">
+
+          <button
+            class="room-gallery__thumbnail is-active"
+            type="button"
+            data-image="img/standard-room.jpg"
+            data-alt="スタンダードツイン 客室"
+          >
+            <img
+              src="img/standard-room.jpg"
+              alt=""
+            >
+          </button>
+
+          <button
+            class="room-gallery__thumbnail"
+            type="button"
+            data-imge="img/standard-bed.jpg"
+            data-alt="スタンダードツイン ベッド"
+          >
+            <img
+              src="img/standard-bed.jpg"
+              alt=""
+            >
+          </button>
+
+          <button
+            class="room-gallery__thumbnail"
+            type="button"
+            data-image="img/standard-bath.jpg"
+            data-alt="スタンダードツイン バスルーム"
+          >
+            <img
+              src="img/standard-bath.jpg"
+              alt=""
+            >
+          </button>
+
+          <button
+            class="room-gallery__thumbnail"
+            type="button"
+            data-image="img/standard-view.jpg"
+            data-alt="スタンダードツインからの眺望"
+          >
+            <img
+              src="img/standard-view.jpg"
+              alt=""
+            >
+          </button>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- Room Information -->
+    <section class="room-information">
+
+      <div class="room-information__inner">
+
+        <div class="section-heading">
+          <p class="section-heading__en">ROOM INFORMATION</p>
+          <h2 class="section-heading__title">客室情報</h2>
+        </div>
+
+        <div class="room-information__table">
+
+          <div class="room-information__row">
+            <span class="room-information__label">客室タイプ</span>
+            <span class="room-information__value">スタンダードツイン</span>
+          </div>
+
+          <div class="room-information__row">
+            <span class="room-information__label">広さ</span>
+            <span class="room-information__value">24㎡</span>
+          </div>
+
+          <div class="room-information__row">
+            <span class="room-information__label">定員</span>
+            <span class="room-information__value">1〜2名</span>
+          </div>
+
+          <div class="room-information__row">
+            <span class="room-information__label">ベッド</span>
+            <span class="room-information__value">
+              シングルベッド 110cm × 2台
+            </span>
+          </div>
+
+          <div class="room-information__row">
+            <span class="room-information__label">バスルーム</span>
+            <span class="room-information__value">バス・トイレ付き</span>
+          </div>
+
+          <div class="room-information__row">
+            <span class="room-information__label">喫煙</span>
+            <span class="room-information__value">禁煙</span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- Bed -->
+    <section class="room-bed">
+
+      <div class="room-bed__inner">
+
+        <div class="room-bed__image">
+          <img
+            src="img/standard-bed.jpg"
+            alt="スタンダードツインのベッド"
+          >
+        </div>
+
+        <div class="room-bed__content">
+
+          <p class="room-bed__label">BED</p>
+
+          <h2 class="room-bed__title">
+            心地よい眠りのためのベッド
+          </h2>
+
+          <p class="room-bed__text">
+            ゆったりと身体を休めていただける
+            シングルベッドを2台ご用意しています。
+            一日の疲れを癒し、快適な夜をお過ごしいただけます。
+          </p>
+
+          <dl class="room-bed__spec">
+            <div>
+              <dt>ベッドサイズ</dt>
+              <dd>110cm × 200cm</dd>
+            </div>
+
+            <div>
+              <dt>ベッド数</dt>
+              <dd>2台</dd>
+            </div>
+          </dl>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- Amenities -->
+    <section class="room-amenities">
+
+      <div class="room-amenities__inner">
+
+        <div class="section-heading">
+          <p class="section-heading__en">AMENITIES</p>
+          <h2 class="section-heading__title">設備・アメニティ</h2>
+        </div>
+
+        <div class="room-amenities__list">
+
+          <div class="room-amenities__item">
+            <span>Wi-Fi</span>
+          </div>
+
+          <div class="room-amenities__item">
+            <span>テレビ</span>
+          </div>
+
+          <div class="room-amenities__item">
+            <span>冷蔵庫</span>
+          </div>
+
+          <div class="room-amenities__item">
+            <span>電気ケトル</span>
+          </div>
+
+          <div class="room-amenities__item">
+            <span>ドライヤー</span>
+          </div>
+
+          <div class="room-amenities__item">
+            <span>エアコン</span>
+          </div>
+
+          <div class="room-amenities__item">
+            <span>タオル</span>
+          </div>
+
+          <div class="room-amenities__item">
+            <span>シャンプー</span>
+          </div>
+
+        </div>
+
+        <button
+          class="room-amenities__more"
+          id="amenities-more-button"
+          type="button"
+          aria-expanded="false"
+        >
+          その他の設備・アメニティを見る
+          <span>＋</span>
+        </button>
+
+        <div
+          class="room-amenities__hidden"
+          id="amenities-hidden"
+          hidden
+        >
+          <div class="room-amenities__list room-amenities__list--additional">
+
+            <div class="room-amenities__item">
+              <span>空気清浄機</span>
+            </div>
+
+            <div class="room-amenities__item">
+              <span>セーフティボックス</span>
+            </div>
+
+            <div class="room-amenities__item">
+              <span>ハンガー</span>
+            </div>
+
+            <div class="room-amenities__item">
+              <span>ナイトウェア</span>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- Reservation CTA -->
+    <section class="room-reservation">
+
+      <div class="room-reservation__inner">
+
+        <p class="room-reservation__label">
+          RESERVATION
+        </p>
+
+        <h2 class="room-reservation__title">
+          この部屋を予約する
+        </h2>
+
+        <p class="room-reservation__text">
+          ご宿泊の日程・人数を選択して、
+          ご予約へお進みください。
+        </p>
+
+        <a
+          href="reservation.html"
+          class="room-reservation__button"
+        >
+          予約ページへ進む
+          <span>→</span>
+        </a>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- Footer -->
+  <footer class="site-footer">
+
+    <div class="site-footer__inner">
+
+      <p class="site-footer__logo">
+        HOTEL NORD
+      </p>
+
+      <p class="site-footer__address">
+        北海道札幌市中央区〇〇1-2-3
+      </p>
+
+      <p class="site-footer__copyright">
+        &copy; HOTEL NORD
+      </p>
+
+    </div>
+
+  </footer>
+
+
+  <!-- <script src="js/rooms.js"></script> -->
+  <script src="js/room-detail.js"></script>
+
+</body>
+</html>

@@ -1,9 +1,13 @@
-const roomButtons = document.querySelectorAll(".room-card__button");
+// 動作確認でコメントアウト
 
-roomButtons.forEach((button) => {
-  button.addEventListener("click", () => {
-    const roomType = button.dataset.room;
 
-    console.log(`選択された客室：${roomType}`);
-  });
-});
+// const roomButtons = document.querySelectorAll(".room-card__button");
+
+// roomButtons.forEach((button) => {
+//   button.addEventListener("click", () => {
+//     const roomType = button.dataset.room;
+
+//     console.log(`選択された客室：${roomType}`);
+//   });
+// });
+
