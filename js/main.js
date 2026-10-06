@@ -1,6 +1,6 @@
-// ==============================
+
 // ハンバーガーメニュー
-// ==============================
+
 
 const menuButton = document.getElementById("menu-button");
 const globalNav = document.getElementById("global-nav");

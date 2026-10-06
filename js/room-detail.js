@@ -1,6 +1,6 @@
-/* ========================================
-   Header Menu
-======================================== */
+
+//    Header Menu
+
 
 const menuButton = document.querySelector(
   ".site-header__menu-button"
@@ -27,9 +27,9 @@ if (menuButton && navigation) {
 }
 
 
-/* ========================================
-   Room Gallery
-======================================== */
+
+//    Room Gallery
+
 
 const galleryMainImage = document.querySelector(
   "#gallery-main-image"
@@ -63,9 +63,8 @@ galleryThumbnails.forEach((thumbnail) => {
 });
 
 
-/* ========================================
-   Amenities More Button
-======================================== */
+//    Amenities More Button
+
 
 const amenitiesButton = document.querySelector(
   "#amenities-more-button"

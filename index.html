@@ -1,398 +1,587 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>donguri hotel -City&Mountain</title>
+
     <link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="./css/top__effect.css">
 </head>
+
 <body>
-    <!-- <header class="header">
-        どんぐり旅館
-        
-    </header> -->
 
-      <header class="header">
-    <div class="header__inner">
+    <!-- 🍁 ページ全体のエフェクト -->
+    <!-- <div class="page-effect" aria-hidden="true">
 
-      <a href="index.html" class="header__logo">
-        DONGURI-HOTEL<br>
-        MOUNTAIN&CITY<br>
-        
-      </a>
+        <span class="page-effect__particle page-effect__particle--01"></span>
+        <span class="page-effect__particle page-effect__particle--02"></span>
+        <span class="page-effect__particle page-effect__particle--03"></span>
+        <span class="page-effect__particle page-effect__particle--04"></span>
+        <span class="page-effect__particle page-effect__particle--05"></span>
+        <span class="page-effect__particle page-effect__particle--06"></span>
+        <span class="page-effect__particle page-effect__particle--07"></span>
+        <span class="page-effect__particle page-effect__particle--08"></span>
+        <span class="page-effect__particle page-effect__particle--09"></span>
+        <span class="page-effect__particle page-effect__particle--10"></span>
+        <span class="page-effect__particle page-effect__particle--11"></span>
+        <span class="page-effect__particle page-effect__particle--12"></span>
+        <span class="page-effect__particle page-effect__particle--13"></span>
+        <span class="page-effect__particle page-effect__particle--14"></span>
+        <span class="page-effect__particle page-effect__particle--15"></span>
 
-      <nav class="header__nav" id="global-nav">
-        <ul class="header__list">
-          <li><a href="#stay">STAY</a></li>
-          <li><a href="#experience">EXPERIENCE</a></li>
-          <li><a href="#access">ACCESS</a></li>
-          <li>
-            <a href="reservation.html" class="header__reserve">
-              予約する
+    </div> -->
+
+
+    <!-- Header -->
+    <header class="header">
+
+        <div class="header__inner">
+
+            <a href="index.html" class="header__logo">
+                DONGURI-HOTEL<br>
+                MOUNTAIN&CITY
             </a>
-          </li>
-        </ul>
-      </nav>
 
-      <button
-        class="header__menu"
-        id="menu-button"
-        type="button"
-        aria-label="メニューを開く"
-        aria-expanded="false"
-      >
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
+            <nav class="header__nav" id="global-nav">
 
-    </div>
-  </header>
+                <ul class="header__list">
+
+                    <li>
+                        <a href="#stay">STAY</a>
+                    </li>
+
+                    <li>
+                        <a href="#experience">EXPERIENCE</a>
+                    </li>
+
+                    <li>
+                        <a href="#access">ACCESS</a>
+                    </li>
+
+                    <li>
+                        <a
+                            href="reservation.html"
+                            class="header__reserve"
+                        >
+                            予約する
+                        </a>
+                    </li>
+
+                </ul>
+
+            </nav>
 
 
-    <section class="hero">
+            <button
+                class="header__menu"
+                id="menu-button"
+                type="button"
+                aria-label="メニューを開く"
+                aria-expanded="false"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
 
-        <div>
-            <img src="img/hotel-hero-top1.png" alt="">
         </div>
 
-
-    </section>
+    </header>
 
 
     <main>
 
-    <!-- Hero -->
-    <section class="hero">
 
-      <div class="hero__image">
-        <img
-          src="img/observation-desk.png"
-          alt="秋の山と街を望むホテル"
-        >
-      </div>
+        <!-- Hero -->
+        <section class="hero">
 
-      <div class="hero__content">
-        <p class="hero__catch">
-          山と街を望む、<br>
-          特別な滞在。
-        </p>
+            <div class="hero__image">
 
-        <p class="hero__text">
-          心ほどける時間を、<br>
-          この場所で。
-        </p>
+                <img
+                    src="img/observation-desk.png"
+                    alt="秋の山と街を望むホテル"
+                >
 
-        <div class="hero__buttons">
-          <a href="rooms.html" class="button button--primary">
-            客室を見る
-          </a>
-
-          <a href="reservation.html" class="button button--secondary">
-            予約する
-          </a>
-        </div>
-      </div>
-
-    </section>
-
-
-    <!-- Information -->
-    <section class="information section">
-
-      <div class="section__heading">
-        <p class="section__en">INFORMATION</p>
-        <h2 class="section__title">お知らせ</h2>
-      </div>
-
-      <ul class="information__list">
-
-        <li class="information__item">
-          <time datetime="2026-10-05">
-            2026.10.05
-          </time>
-          <a href="#">
-            秋の宿泊プランのお知らせ
-          </a>
-        </li>
-
-        <li class="information__item">
-          <time datetime="2026-10-01">
-            2026.10.01
-          </time>
-          <a href="#">
-            レストラン営業について
-          </a>
-        </li>
-
-        <li class="information__item">
-          <time datetime="2026-09-20">
-            2026.09.20
-          </time>
-          <a href="#">
-            ホテル周辺の観光情報を更新しました
-          </a>
-        </li>
-
-      </ul>
-
-    </section>
-
-
-    <!-- Stay -->
-    <section class="stay section" id="stay">
-
-      <div class="section__heading">
-        <p class="section__en">STAY</p>
-        <h2 class="section__title">客室を選ぶ</h2>
-        <p class="section__description">
-          旅の目的や人数に合わせて、<br>
-          お好みの客室をお選びください。
-        </p>
-      </div>
-
-
-      <div class="room-cards">
-
-        <!-- Room 01 -->
-        <article class="room-card">
-
-          <div class="room-card__image">
-            <img
-              src="img/deluxe-room.jpg"
-              alt="デラックスルーム"
-            >
-          </div>
-
-          <div class="room-card__content">
-
-            <p class="room-card__number">
-              ROOM 01
-            </p>
-
-            <h3 class="room-card__title">
-              Deluxe Room
-            </h3>
-
-            <p class="room-card__description">
-              ゆったりとした空間で、
-              山と街の景色を楽しめる客室。
-            </p>
-
-            <p class="room-card__price">
-              ¥18,000〜
-              <span> / 1泊</span>
-            </p>
-
-            <a href="rooms.html" class="text-link">
-              客室詳細を見る →
-            </a>
-
-          </div>
-
-        </article>
-
-
-        <!-- Room 02 -->
-        <article class="room-card">
-
-          <div class="room-card__image">
-            <img
-              src="img/standard-room.jpg"
-              alt="スタンダードルーム"
-            >
-          </div>
-
-          <div class="room-card__content">
-
-            <p class="room-card__number">
-              ROOM 02
-            </p>
-
-            <h3 class="room-card__title">
-              Standard Room
-            </h3>
-
-            <p class="room-card__description">
-              シンプルで快適な、
-              ビジネスにも旅行にも使いやすい客室。
-            </p>
-
-            <p class="room-card__price">
-              ¥12,000〜
-              <span> / 1泊</span>
-            </p>
-
-            <a href="rooms.html" class="text-link">
-              客室詳細を見る →
-            </a>
-
-          </div>
-
-        </article>
-
-      </div>
-
-
-      <div class="section__button">
-        <a href="rooms.html" class="button button--outline">
-          客室一覧を見る
-        </a>
-      </div>
-
-    </section>
-
-
-    <!-- Experience -->
-    <section class="experience section" id="experience">
-
-      <div class="section__heading">
-        <p class="section__en">EXPERIENCE</p>
-        <h2 class="section__title">
-          このホテルで過ごす時間
-        </h2>
-      </div>
-
-
-      <div class="experience__grid">
-
-        <a href="#" class="experience__item">
-          <img
-            src="img/restaurant.jpg"
-            alt="ホテルレストラン"
-          >
-          <img
-            src="img/restaurant-food.jpg"
-            alt="ディナー"
-          >
-          <div class="experience__content">
-            <span>01</span>
-            <h3>RESTAURANT</h3>
-            <p>地元の食材を楽しむ</p>
-          </div>
-        </a>
-
-
-        <a href="#" class="experience__item">
-          <img
-            src="img/accommodation.jpg"
-            alt="ホテル施設"
-          >
-          <div class="experience__content">
-            <span>02</span>
-            <h3>FACILITY</h3>
-            <p>ホテルで過ごす時間</p>
-          </div>
-        </a>
-
-
-        <a href="#" class="experience__item">
-          <img
-            src="img/hotel-area-map.jpg"
-            alt="ホテル周辺の観光"
-          >
-          <div class="experience__content">
-            <span>03</span>
-            <h3>SIGHTSEEING</h3>
-            <p>周辺の観光を楽しむ</p>
-          </div>
-        </a>
-
-      </div>
-
-    </section>
-
-
-    <!-- Access -->
-    <section class="access section" id="access">
-
-      <div class="access__inner">
-
-        <div class="section__heading">
-          <p class="section__en">ACCESS</p>
-          <h2 class="section__title">
-            山と街をつなぐ場所
-          </h2>
-        </div>
-
-        <div class="access__content">
-
-          <div class="access__map">
-            <div class="access__map-placeholder">
-              MAP
             </div>
-          </div>
-
-          <div class="access__info">
-            <h3>
-              DONGURI-HOTEL MOUNTAIN&CITY
-            </h3>
-
-            
-            <p>
-              北海道○○市○○町1-1-1
-            </p>
-
-            <dl>
-              <div>
-                <dt>最寄駅</dt>
-                <dd>○○駅から徒歩8分</dd>
-              </div>
-
-              <div>
-                <dt>駐車場</dt>
-                <dd>あり / 50台(第一駐車場.1F) / 50台(第二駐車場.2F)</dd>
-              </div>
-
-            </dl>
-
-            <a href="#" class="text-link">
-              アクセス詳細を見る →
-            </a>
-          </div>
-
-        </div>
-
-      </div>
-
-    </section>
 
 
-    <!-- Reservation CTA -->
-    <section class="reservation-cta">
+            <div class="hero__content">
 
-      <div class="reservation-cta__content">
+                <p class="hero__catch">
+                    山と街を望む、<br>
+                    特別な滞在。
+                </p>
 
-        <p class="reservation-cta__en">
-          RESERVATION
-        </p>
+                <p class="hero__text">
+                    心ほどける時間を、<br>
+                    この場所で。
+                </p>
 
-        <h2>
-          次の旅を、<br>
-          ここから。
-        </h2>
 
-        <p>
-          空室状況を確認して、<br>
-          あなたに合った客室をお選びください。
-        </p>
+                <div class="hero__buttons">
 
-        <a
-          href="reservation.html"
-          class="button button--white"
+                    <a
+                        href="rooms.html"
+                        class="button button--primary"
+                    >
+                        客室を見る
+                    </a>
+
+                    <a
+                        href="reservation.html"
+                        class="button button--secondary"
+                    >
+                        予約する
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Information -->
+        <section class="information section">
+
+            <div class="section__heading">
+
+                <p class="section__en">
+                    INFORMATION
+                </p>
+
+                <h2 class="section__title">
+                    お知らせ
+                </h2>
+
+            </div>
+
+
+            <ul class="information__list">
+
+                <li class="information__item">
+
+                    <time datetime="2026-10-05">
+                        2026.10.05
+                    </time>
+
+                    <a href="#">
+                        秋の宿泊プランのお知らせ
+                    </a>
+
+                </li>
+
+
+                <li class="information__item">
+
+                    <time datetime="2026-10-01">
+                        2026.10.01
+                    </time>
+
+                    <a href="#">
+                        レストラン営業について
+                    </a>
+
+                </li>
+
+
+                <li class="information__item">
+
+                    <time datetime="2026-09-20">
+                        2026.09.20
+                    </time>
+
+                    <a href="#">
+                        ホテル周辺の観光情報を更新しました
+                    </a>
+
+                </li>
+
+            </ul>
+
+        </section>
+
+
+        <!-- Stay -->
+        <section
+            class="stay section"
+            id="stay"
         >
-          空室を検索して予約する
-        </a>
 
-      </div>
+            <div class="section__heading">
 
-    </section>
+                <p class="section__en">
+                    STAY
+                </p>
 
-  </main>
+                <h2 class="section__title">
+                    客室を選ぶ
+                </h2>
+
+                <p class="section__description">
+                    旅の目的や人数に合わせて、<br>
+                    お好みの客室をお選びください。
+                </p>
+
+            </div>
+
+
+            <div class="room-cards">
+
+
+                <!-- Room 01 -->
+                <article class="room-card">
+
+                    <div class="room-card__image">
+
+                        <img
+                            src="img/deluxe-room.jpg"
+                            alt="デラックスルーム"
+                        >
+
+                    </div>
+
+
+                    <div class="room-card__content">
+
+                        <p class="room-card__number">
+                            ROOM 01
+                        </p>
+
+                        <h3 class="room-card__title">
+                            Deluxe Room
+                        </h3>
+
+                        <p class="room-card__description">
+                            ゆったりとした空間で、
+                            山と街の景色を楽しめる客室。
+                        </p>
+
+                        <p class="room-card__price">
+                            ¥18,000〜
+                            <span>/ 1泊</span>
+                        </p>
+
+                        <a
+                            href="rooms.html"
+                            class="text-link"
+                        >
+                            客室詳細を見る →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Room 02 -->
+                <article class="room-card">
+
+                    <div class="room-card__image">
+
+                        <img
+                            src="img/standard-room.jpg"
+                            alt="スタンダードルーム"
+                        >
+
+                    </div>
+
+
+                    <div class="room-card__content">
+
+                        <p class="room-card__number">
+                            ROOM 02
+                        </p>
+
+                        <h3 class="room-card__title">
+                            Standard Room
+                        </h3>
+
+                        <p class="room-card__description">
+                            シンプルで快適な、
+                            ビジネスにも旅行にも使いやすい客室。
+                        </p>
+
+                        <p class="room-card__price">
+                            ¥12,000〜
+                            <span>/ 1泊</span>
+                        </p>
+
+                        <a
+                            href="rooms.html"
+                            class="text-link"
+                        >
+                            客室詳細を見る →
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+
+            <div class="section__button">
+
+                <a
+                    href="rooms.html"
+                    class="button button--outline"
+                >
+                    客室一覧を見る
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- Experience -->
+        <section
+            class="experience section"
+            id="experience"
+        >
+
+            <div class="section__heading">
+
+                <p class="section__en">
+                    EXPERIENCE
+                </p>
+
+                <h2 class="section__title">
+                    このホテルで過ごす時間
+                </h2>
+
+            </div>
+
+
+            <div class="experience__grid">
+
+
+                <a
+                    href="#"
+                    class="experience__item"
+                >
+
+                    <img
+                        src="img/restaurant.jpg"
+                        alt="ホテルレストラン"
+                    >
+
+                    <img
+                        src="img/restaurant-food.jpg"
+                        alt="ディナー"
+                    >
+
+                    <div class="experience__content">
+
+                        <span>01</span>
+
+                        <h3>
+                            RESTAURANT
+                        </h3>
+
+                        <p>
+                            地元の食材を楽しむ
+                        </p>
+
+                    </div>
+
+                </a>
+
+
+                <a
+                    href="#"
+                    class="experience__item"
+                >
+
+                    <img
+                        src="img/accommodation.jpg"
+                        alt="ホテル施設"
+                    >
+
+                    <div class="experience__content">
+
+                        <span>02</span>
+
+                        <h3>
+                            FACILITY
+                        </h3>
+
+                        <p>
+                            ホテルで過ごす時間
+                        </p>
+
+                    </div>
+
+                </a>
+
+
+                <a
+                    href="#"
+                    class="experience__item"
+                >
+
+                    <img
+                        src="img/hotel-area-map.jpg"
+                        alt="ホテル周辺の観光"
+                    >
+
+                    <div class="experience__content">
+
+                        <span>03</span>
+
+                        <h3>
+                            SIGHTSEEING
+                        </h3>
+
+                        <p>
+                            周辺の観光を楽しむ
+                        </p>
+
+                    </div>
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- Access -->
+        <section
+            class="access section"
+            id="access"
+        >
+
+            <div class="access__inner">
+
+                <div class="section__heading">
+
+                    <p class="section__en">
+                        ACCESS
+                    </p>
+
+                    <h2 class="section__title">
+                        山と街をつなぐ場所
+                    </h2>
+
+                </div>
+
+
+                <div class="access__content">
+
+
+                    <div class="access__map">
+
+                        <div class="access__map-placeholder">
+                            MAP
+                        </div>
+
+                    </div>
+
+
+                    <div class="access__info">
+
+                        <h3>
+                            DONGURI-HOTEL MOUNTAIN&CITY
+                        </h3>
+
+                        <p>
+                            北海道○○市○○町1-1-1
+                        </p>
+
+
+                        <dl>
+
+                            <div>
+
+                                <dt>
+                                    最寄駅
+                                </dt>
+
+                                <dd>
+                                    ○○駅から徒歩8分
+                                </dd>
+
+                            </div>
+
+
+                            <div>
+
+                                <dt>
+                                    駐車場
+                                </dt>
+
+                                <dd>
+                                    あり / 50台
+                                    (第一駐車場.1F) /
+                                    50台
+                                    (第二駐車場.2F)
+                                </dd>
+
+                            </div>
+
+                        </dl>
+
+
+                        <a
+                            href="#"
+                            class="text-link"
+                        >
+                            アクセス詳細を見る →
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Reservation CTA -->
+        <section class="reservation-cta">
+
+            <div class="reservation-cta__content">
+
+                <p class="reservation-cta__en">
+                    RESERVATION
+                </p>
+
+                <h2>
+                    次の旅を、<br>
+                    ここから。
+                </h2>
+
+                <p>
+                    空室状況を確認して、<br>
+                    あなたに合った客室をお選びください。
+                </p>
+
+                <a
+                    href="reservation.html"
+                    class="button button--white"
+                >
+                    空室を検索して予約する
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
 
     <footer>
-
     </footer>
+
+
     <script src="js/main.js"></script>
+
 </body>
 </html>
+
